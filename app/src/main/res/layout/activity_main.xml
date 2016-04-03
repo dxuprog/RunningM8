@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="runningmate.runningm8.MainActivity"
+    android:orientation="vertical"
+    android:background="#0099CC"
+    >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:src="@drawable/black_cropped2" />
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Minutes to run: "
+                    android:layout_gravity="center_vertical"
+                    android:textSize="18dp" />
+                <NumberPicker
+                    android:id="@+id/numPick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp">
+                </NumberPicker>
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/runButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:layout_margin="25dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Go for a Run!"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textColor="#ffffff"
+            android:background="#9b9b9b" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RunningM8</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">RunningM8</string>
+</resources>
